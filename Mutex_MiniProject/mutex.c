@@ -22,7 +22,7 @@ const int number=6;
 struct message 
 {
     long msgtype; 	
-    int banking[number];
+    int banking[6];
 }service; 
 
 
