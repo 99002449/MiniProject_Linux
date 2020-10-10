@@ -1,7 +1,7 @@
 all: all.out 
 all.out : mutex.o 
-	g++ $^ -o $@ -lpthread
+	gcc $^ -o $@ -lpthread
 mutex.o: mutex.c 
-	g++ $< -c
+	gcc $< -c
 clean:
 	rm -rf *.o *.out
