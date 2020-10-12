@@ -1,4 +1,4 @@
-name: cppcheck-action
+name: cppcheck-action 2
 on: [push]
 
 jobs:
